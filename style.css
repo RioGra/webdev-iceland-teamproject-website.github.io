@@ -1,0 +1,322 @@
+/* Google Fonts (Keep at the top)*//*Place @import rules at the very top of your style sheet, before any other CSS rules*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*Gráinne added for mobile */
+.wrapper-main {
+    width: 100%;
+    
+}
+
+.carousel-container {
+    max-width: 100%;
+    height: 100%;
+
+}
+.carousel-item img{
+  object-fit: cover;
+  object-position: center;
+width: 100%;
+height: 100%;
+}
+
+/* Gráinne Section*/
+.c-item{
+    height: 780px;
+    width: 650px
+
+}
+.c-img{
+    height: 80%;
+    object-fit: cover;
+    filter: darkness(0.3);
+
+}
+.h1{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif violet
+    font-size medium;
+    font-style: backdrop;
+}
+
+
+/* Poojah cards Section*/
+.container{ 
+    display: flex; 
+    justify-content: center;
+    padding-top:40px;
+    flex-wrap: wrap;
+}
+
+.cards{ 
+    background-color: #F8F8FF;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 #D3D3D3, 0 6px 20px 0 #D3D3D3;
+}
+
+.card-images{ 
+    border-radius: 20px 20px 0 0;
+}
+
+.cards h2{ 
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+    font-family: "Barlow", sans-serif;
+}
+
+.cards p{
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cards a{ 
+    background-color: #ADD8E6;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    padding: 5px 5px;
+    display: block;
+    margin: 20px 70px;
+    border-radius: 5px;
+}
+
+.cards:hover{ 
+    background-color: #778899;
+    color: white;
+    transform: scale(1.05);
+    transition: all 1s ease;
+
+}
+/* Phoebe Section (Footer)*/
+#page-container {
+    position: relative;   /* page size in relation to footer */
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 6rem;    /* Footer */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #0b5ed7;
+    color: white;
+    padding-top: 10px;
+    background-color: #cff4fc;
+    color: #0b5ed7;
+    height: 3.8rem;            /* Footer */
+  }
+  .alignleft {
+	float: left;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.alignright {
+	float: right;   
+    padding-right: 25px;
+}
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 20px;
+    text-align: right;
+    text-decoration: none;
+    border-radius: 0%;       /* Footer icons */
+  }
+
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: right;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.525rem;
+  height: 2.525rem;
+  border: 0.425rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 0.7625rem;
+  font-weight: normal;
+  line-height: 1em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-instagram {
+  font-size: 27px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+
+
+}
+
+/* About us page */
+
+.team .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  }
+  
+  .team .member .teampic {
+  overflow: hidden;
+  width: 180px;
+  border-radius: 50%;
+  }
+
+  .team .member .member-info {
+  padding-left: 30px;
+  }
+  
+  .team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #0b5ed7;
+  }
+  
+  .team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+  }
+  
+  .team .member span::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: black;
+  bottom: 0;
+  left: 0;
+  }
+  
+  .team .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+  }
+  
+  .team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  }
+  
+  .team .member .social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #ffffff;
+  }
+  
+  .team .member .social a i {
+  color: #0b5ed7;
+  font-size: 16px;
+  margin: 0 2px;
+  }
+  
+  .team .member .social a:hover {
+  background: #cff4fc;
+  }
+  
+  section {
+  padding: 10px 0;
+  overflow: hidden;
+  }
+  
+  .section-title {
+  text-align: center;
+  padding-bottom: 10px;
+  }
+  
+  .section-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  position: relative;
+  color: #0b5ed7;
+  }
+  
+  .underline{
+      width: 150px;
+      height: 1px;
+      background-color: black;
+      margin: auto;
+      margin-top: -30px;
+  }
+  
+  .section-title p {
+  margin-top: 20px;
+  }
+
+  @media (max-width: 900px){
+ 
+    /*Footer Section*/
+    .alignleft{
+      font-size: 12px;
+    }
+    .rounded-social-buttons .social-button {
+      width: 1.8rem;
+      height: 1.8rem;
+      margin: auto;
+    }
+    .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-instagram {
+    font-size: 15px;
+    }
+  
+  }
+
+
+/*--Media Queries Grainne included and not yet shared code - breakpoints--*/
+/*Phone version
+@media only screen and (min-width: 400px) and (max-width: 768px) {
+
+    .wrapper-main {
+        width: 100%;
+    }
+
+}*/
+
+

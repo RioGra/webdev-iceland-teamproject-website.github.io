@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="topStyle.css"/>
+    <title>Top Places</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<div id="page-container">
+  <div id="content-wrap">
+    <!--NavBar (Bootstrap) Iceland Image shape ,add two buttons (Home, Top3 and About Us)-->
+    <nav class="navbar  navbar-expand-md py-0  bg-info-subtle text-info-emphasis;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><a class="navbar-brand" href="#">
+          <img src="https://www.cdnlogo.com/logos/f/4/flag-map-of-iceland.svg"alt="Iceland" width="110" height="110">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              
+            <li class="nav-item">
+                <div class="btn-group me-5" role="group" aria-label="Second group">
+                  <a href="main.html" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" 
+                    viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 
+                    .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                  </svg>
+                    Home
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <div class="btn-group me-5" role="group" aria-label="Second group">
+                <a href ="top3.html"button type="button" class="btn btn-primary"><svg xmlns="http://www.w3.org/2000/svg" 
+                  width="16" height="16" fill="currentColor" class="bi bi-person-walking" viewBox="0 0 16 16">
+                    <path d="M9.5 1.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0M6.44 3.752A.75.75 0 0 1 7
+                     3.5h1.445c.742 0 1.32.643 1.243 1.38l-.43 4.083a1.8 1.8 0 0 1-.088.395l-.318.906.213.242a.8.8 0 0 1 .114.175l2 
+                     4.25a.75.75 0 1 1-1.357.638l-1.956-4.154-1.68-1.921A.75.75 0 0 1 6 8.96l.138-2.613-.435.489-.464 2.786a.75.75 0
+                    1 1-1.48-.246l.5-3a.75.75 0 0 1 .18-.375l2-2.25Z"/>
+                                    <path d="M6.25 11.745v-1.418l1.204 1.375.261.524a.8.8 0 0 1-.12.231l-2.5 3.25a.75.75 0 1 1-
+                    1.19-.914zm4.22-4.215-.494-.494.205-1.843.006-.067 1.124 1.124h1.44a.75.75 0 0 1 0 1.5H11a.75.75 0 0 
+                    1-.531-.22Z"/>
+                  </svg>
+                    Top 6
+                  </a>
+            </li>
+              
+            <li class="nav-item">
+                <div class="btn-group me-5" role="group" aria-label="Second group">
+                  <a href="aboutUs.html" class="btn btn-primary"><svg
+                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
+                     class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                    <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 
+                    0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"/>
+                    </svg>
+                      About us
+                  </a>
+              </li>
+          </ul>
+          <form class="d-flex" id="form" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="query" name ="q">
+          <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--Poojah Section. TOC and Places to Go List-->
+    <!--Header-->
+    <div class="headerBox">
+      <h1> TOP PLACES TO GO </h1>
+    </div>
+
+    <!-- Table of Content-->
+    <div class="wrapper">
+      <div class="tableOfContent">
+        <div class="toc-header"> Have Your Pick</div>
+        <div class="placeItems">
+          <a href="#placeOne">Blue Lagoon</a>
+          <a href="#placeTwo">Jökulsárlón Glacier</a>
+          <a href="#placeThree">Gull Foss Waterfall</a>
+          <a href="#placeFour">Reynisfjara</a>
+          <a href="#placeFive">Skógafoss WaterFall</a>
+          <a href="#placeSix">Westfjords</a>
+          <a href="#tickets">Others</a>
+      </div>
+    </div>
+ </div>
+
+    
+   <!-- Image Card of 6 places with full desc -->
+    <div class="mainWrapper">
+      <div id="placeOne"></div> 
+      <div class="mainContainer">
+        <img class="placeImage" src="Blue Lagoon.JPG" alt="Blue Lagoon"> 
+        <div class="content">
+          <h2> Blue Lagoon</h2>
+          <p> Want to visit a well-known tourist destination, a geothermal spa that is renowned for its 
+            stunning scenery milky blue waters that is full of minerals and healing properties? Check out the Blue Lagoon,
+            located in the South-Western parts of Iceland. Established in 1981, this destination gained popularity due to
+            its vivid blue water and incredible volcanic scenery and let us not forget its amazing skin treatment, guests 
+            are offered incredible skin treatment such as silica mud and algae masks as part of their Blue Lagoon experience.
+            Who doesn't want great skin?
+            It is open all year round, but the best time to go is during the summer, when the days are sunny and warm.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainWrapper">
+      <div id="placeTwo"></div> 
+      <div class="mainContainer">
+        <img class="placeImage" src="J0kulsaron Glacier.JPG" alt="Jökulsárlón Glacier"> 
+        <div class="content">
+          <h2> Jökulsárlón Glacier</h2>
+          <p> Did you know that freshwater and saltwater coexist in the Jökulsárlón Glacier, which is connected 
+            to the ocean? This explains the glaciers distinct colour! This well know glacial lagoon is located in the 
+            southeast and is mostly known for its breathtaking scenery of floating icebergs and ice that are almost 1000 
+            years old. It is a site that is truly a must see, so if you are arounds the the south of Vatnajokull check it out,
+             and as a bonus, it’s also one of the top places to watch the northern lights. Imagine the photographs you'll take! 
+            For the best experience of these icebergs, it is best to go during the summer or early autumn.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainWrapper">
+      <div id="placeThree"></div> 
+      <div class="mainContainer"> 
+        <img class="placeImage" src="Gull Foss WaterFall.JPG" alt="Gull Foss Waterfall" > 
+        <div class="content">
+          <h2> Gull Foss Waterfall</h2>
+          <p> Gull Foss, sometimes know as the “Golden Waterfall” is one of the most well-known and photographed waterfalls
+             in Iceland. It is located near the Golden Circle tourism circuit in the southwest. The capital of Iceland is
+              only two hours away from GullFoss Waterfall! GullFoss offers stunning views of the waterfall and canyon and 
+              for those looking for an excellent place to hike, there are a number of walking pathways and viewing platforms 
+              waiting for you. Summer months are ideal for visiting because of the longer days and temperatures however, 
+              in the winter; the waterfall can get snow-covered and is partially frozen, resulting in stunning image 
+              reminiscent of a winter wonderland. 
+            </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainWrapper">
+      <div id="placeFour"></div> 
+      <div class="mainContainer"> 
+        <img class="placeImage" src="reynisfjara_720.jpg" alt="Reynisfjara"> 
+        <div class="content">
+          <h2> Reynisfjara</h2>
+          <p> Reynisfjara is a very famous black sand beach on Iceland’s South Coast. Many believe that Reynisfjara is 
+            the most stunning black sand beaches in Iceland because of its massive basalt stacks, crashing Atlantic 
+            waves and not to forget, it’s incredible views. Fun Fact: Reynisfjara is actually a very popular location 
+            for films or TV shows like Game of Thrones and Star Wars! It is recommended that visitors are to be careful 
+            while visiting Reynisfjara black beach, always maintain a safe distance of at least 30 meters and to never turn 
+            their backs on the waves. If you do plan on going, summer would be the best season not only for the warm 
+            temperatures but for the puffin community!! They are so cute! </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainWrapper">
+      <div id="placeFive"></div> 
+      <div class="mainContainer"> 
+        <img class="placeImage" src="skógafossWaterfall.jpg" alt="Skogafoss Waterfall"> 
+        <div class="content">
+          <h2> Skogafoss Waterfall</h2>
+          <p> Located on the Skógá River in the southern part of Iceland, Skógafoss waterfall is one of the country’s 
+            most magnificent sites for visitors. Visitors are able to approach the water’s wall directly due to how 
+            flat the land underneath the waterfall is. So if you plan to visit in the summer, it will be very tempting 
+            to get drenched with the waterfalls water. Fun Fact! Did you know that the first Viking settler of the 
+            region was Prasi Porolfsson and supposedly buried a chest filled with treasure behind the waterfall? 
+            During the summer season would be ideal to visit but for those looking for a site that appears to have 
+            been taken right out of a fantasy book, visiting in winter would is a must. Plus for those who are lucky,
+             you can witness the Northern Lights! Just make sure to pack a really warm coat! </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mainWrapper">
+      <div id="placeSix"></div>
+      <div class="mainContainer">
+        <img class="placeImage" src="westfjords.jfif" alt="Westfjords Northern lights">   
+        <div class="content">
+          <h2> Westfjords</h2>
+          <p>One Of the most breathtaking and incredible areas of Iceland, featuring untouched scenery, 
+            winding fjords and small, charming communities, this region is unlike any other. This area is often 
+            overlooked due to its distance from other popular destinations in Iceland bit the Westfjords is filled 
+            with natural treasures! There are many places for visitors to explore and with the minimal tourist
+             traffic; Westfjords is a fantastic place to visit. Keep the following locations in mind if you do 
+             plan of visiting: Raudasandur Beach, Hornstrandir Nature Reserve, Latrabjarg Cliffs, and Dynjandi 
+             Waterfall. Do remember that Westfjords is only really reachable during the summer seasons. 
+        </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ticket Box plus live links with 3 cards (Booking, Skyscanner and AirBnB)-->
+    </div id ="tickets"></div>
+    <div class="header">
+      <h1>Book your next adventure</h1>
+    </div>
+
+    <div class="flexbox-container">
+      <div class=" flexbox-item-1">
+      <img class="box-images" src="horse back riding.jpg" style="width:100%" 
+      height="75%">
+           <div class="box-desc"></div>
+           <h2>Hafnarfjörður:Horseback Riding Tour </h2>
+          <div class="text-end" style="width: 480px;">
+      <a href="https://www.getyourguide.co.uk/hafnarfjordur-l2122/comfort-ride-in-reykjavik-area-t463006/?
+      ranking_uuid=82c2324f-6303-4c83-b6ac-1c1dcc5b378f" class="btn btn-primary" role="button" target="-blank"aria-disabled="true">
+      Book from £76.22</a>
+      </div>
+      </div>
+      
+      <div class=" flexbox-item-2">
+      <img class="box-images" src="golden circle 1 (1).jpg" alt="Golden Circle" 
+      style="width:100%" height="75%">
+          <div class="box-desc"> </div>
+          <h2>Reykjavik:Golden Circle Afternoon Tour</h2>
+          <div class="text-end" style="width: 480px;">
+          <a href="https://www.getyourguide.co.uk/reykjavik-l30/reykjavik-golden-circle-afternoon-tour-t396783/" 
+          class="btn btn-primary" target="-blank"role="button" aria-disabled="true">Book from £73.72</a>
+      </div>
+      </div>
+  
+      <div class="flexbox-item-3">
+      <img class="box-images" src="acureyri.jpg" alt="Whale Watching" style="width:100%" height="75%">
+          <div class="box-desc"> </div>
+          <h2> Akureyri:Whale Watching Tour</h2>
+          <div class="text-end" style="width: 480px;">
+          <a href="https://www.getyourguide.co.uk/akureyri-l2028/whale-watching-tour-from-akureyri-city-
+          central-t592648/?ranking_uuid=12d5be41-d33c-4495-badd-50a9a0a00768" class="btn btn-primary" target="_blank" 
+          role="button" aria-disabled="true">Book from £63.26</a>
+                     <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav nav-pills">
+                     </div> 
+              <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-
+          rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+              <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-
+          rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+
+          </div>
+        </div>
+      </div>
+      
+  <!-- Footer (Bootstrap)-->
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-
+  rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <footer>
+    </div id="footer"> <!--<div id="footer"- known error / footer bar moves up page </div stop so no blue footer bar-->
+          <p class="alignleft">Designed by Poojah, Phoebe, Tatiana & Gráinne</p>
+          <p class="alignright"><div class="rounded-social-buttons">
+          <a class="social-button facebook" href="https://www.facebook.com/inspiredbyiceland" target="_blank">
+  <i class="fab fa-facebook-f"></i></a>
+          <a class="social-button twitter" href="https://x.com/iceland" target="_blank">
+ <i class="fab fa-twitter"></i></a>
+          <a class="social-button linkedin" href="https://www.linkedin.com/company/business-iceland/" target="_blank">
+  <i class="fab fa-linkedin"></i></a>
+          <a class="social-button instagram" href="https://www.instagram.com/inspiredbyiceland/" target="_blank">
+  <i class="fab fa-instagram"></i></a>
+         </div></p>
+   
+    <div style="clear: both;"></div>
+  </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+  YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
