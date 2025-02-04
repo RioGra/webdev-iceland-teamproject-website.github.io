@@ -4,9 +4,12 @@
 
 Instructor- Sophie Kneeshaw  
 Assistant Instructor - Nkeiruka Whenu
-Travel Team 1 - Designed and built by:
-   Poojah Poobalasingam, Phoebe Macwhinnie, 
-   Tatiana Kasakova & Gráinne Riordan
+
+Designed and built by: Travel Team 1
+   Poojah Poobalasingam 
+   Phoebe Macwhinnie 
+   Tatiana Kasakova
+   Gráinne Riordan
 
 ## FINAL GROUP PROJECT - Build a Travel website around a country of your choice
     
