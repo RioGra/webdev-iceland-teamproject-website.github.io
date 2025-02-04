@@ -4,8 +4,7 @@
 
 Instructor- Sophie Kneeshaw  
 Assistant Instructor - Nkeiruka Whenu
-Travel Team 1 
-This website was designed and built by 
+Travel Team 1 - Designed and built by:
    Poojah Poobalasingam, Phoebe Macwhinnie, 
    Tatiana Kasakova & Gráinne Riordan
 
@@ -38,8 +37,10 @@ NICE TO HAVE
   
 FINAL PROJECT PRESENTATION 9th July 2024
 
+<!---WIREFRAME--->
+
 ## What I enjoyed about this project
-- Enjoyed being part of our team. I had so much fun! I learnt SO much from each member of our team.
+- Enjoyed being part of our team. I had so much fun! I learnt so much from each member of our team.
 - Excited by what we created and how sucessfully we collaborated within our team. 
 - Supported throughout the project.
 - Thrilled with our creation!
