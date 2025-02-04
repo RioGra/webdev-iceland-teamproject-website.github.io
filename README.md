@@ -4,14 +4,12 @@
 
 Instructor- Sophie Kneeshaw  
 Assistant Instructor - Nkeiruka Whenu
-
-## FINAL PROJECT 
-  -Travel Team 1 
-  -This website was designed and built by 
+Travel Team 1 
+This website was designed and built by 
    Poojah Poobalasingam, Phoebe Macwhinnie, 
    Tatiana Kasakova & Gráinne Riordan
 
-
+## FINAL GROUP PROJECT - Build a Travel website around a country of your choice
     
 MUST HAVE
 
@@ -38,8 +36,8 @@ NICE TO HAVE
 
 - JavaScript used to enable user interaction
   
-
 FINAL PROJECT PRESENTATION 9th July 2024
+
 ## What I enjoyed about this project
 - Enjoyed being part of our team. I had so much fun! I learnt SO much from each member of our team.
 - Excited by what we created and how sucessfully we collaborated within our team. 
@@ -51,6 +49,6 @@ FINAL PROJECT PRESENTATION 9th July 2024
 - Bootstrap Carousel - adjusting images to fit whilst maintaing aspect ratio
 - Code error on footer page 2 | the same footer code works on main.html & aboutus.html
 
-If you had more time, what would you change/ add 
-- Improve images quality on Carousel
-- Improve attention to "User Interface" focusing on visual elements, typography, color.
+## More time, what would you change/ add 
+- Improve images quality on  Bootstrap Carousel
+- Improve attention to details on User Interface focusing on visual elements, typography, color.
